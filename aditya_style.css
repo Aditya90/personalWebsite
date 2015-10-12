@@ -218,6 +218,10 @@ h3
 	background-image:-webkit-gradient(linear, center top, center bottom, from(#000000), to(#696969));
 }
 
+.footer_content:before
+{
+	content:"Copyright 2015 Aditya Sreekumar"
+}
 
 p.page_header_name
 {
@@ -242,3 +246,4 @@ table.header
 {
 	background-color:#FFFFFF;
 }
+
