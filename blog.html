@@ -1,4 +1,5 @@
 ---
+
 ---
 
 <!DOCTYPE html	>
@@ -54,34 +55,16 @@
 
 
 		<div id="content">
-			<table width="100%">
-				<tr>
-					<td width="70%">
-						<p>
-							I'm a Design and Development Engineer at <a href="http://www.lutron.com/en-US/Pages/default.aspx">Lutron Electronics</a> focussing on embedded development. I spend most of my day at work developing embedded software for Lutron products, from ground up or modifications on existing platforms.
+			<ul>
+				{% for post in site.posts %}
+				 <li>
+					 	<a href="{{ post.url }}">{{ post.title }}</a>
+					 	<p>
+					 		{{ post.excerpt }}
 						</p>
-
-						<p>
-							Prior to this, I obtained my Masters degree in Robotics from the University of Pennsylvania and my Bachelors in Electrical and Electronics Engineering from the Amrita University.
-						</p>
-						<p>
-							During the course of my Masters, I worked at the <a href="https://www.grasp.upenn.edu/">GRASP Lab</a> as a Research Assistant focussing on SWARM robotics and humanoid robots.
-						</p>
-
-						<p>
-							In my spare time, I dwell into hobby robotics and am looking for ways to grow as an engineer. I like learning software languages and platforms I haven't used before as I feel it exposes to me a lot of new information.
-						</p>
-
-            			<p>
-              				On a lighter side, I play soccer, table tennis and a number of other sports. I've recently gotten into kick boxing as well. I have an inclination towards photography and like capturing portraits every now and then.
-						</p>
-
-					</td>
-					<td>
-						<img src="images/aditya.JPG" alt="Aditya" width="300px"/>
-					</td>
-				</tr>
-			</table>
+				 	</li>
+				{% endfor %}
+			</ul>
 		</div>
 
 		<footer>
