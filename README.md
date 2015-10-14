@@ -5,3 +5,6 @@
 
 ## About
 This is my personal website at the domain www.adityasreekumar.com
+
+## Notes
+- I am presently working on getting a blog setup for my latest project
