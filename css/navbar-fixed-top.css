@@ -1,0 +1,70 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+.navbar-default {
+  background-image:-moz-linear-gradient(90deg, #FC7232, #FFCC11);
+	background-image:-webkit-gradient(linear, center top, center bottom, from(#FC7232), to(#FFCC11));
+  border-color: #FFFFFF;
+}
+.navbar-default .navbar-brand {
+  color: #000000;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #fc7232;
+}
+.navbar-default .navbar-text {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fc7232;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fc7232;
+  background-image:-moz-linear-gradient(90deg, #000000, #696969);
+	background-image:-webkit-gradient(linear, center top, center bottom, from(#000000), to(#696969));
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #fc7232;
+  background-image:-moz-linear-gradient(90deg, #000000, #696969);
+	background-image:-webkit-gradient(linear, center top, center bottom, from(#000000), to(#696969));
+}
+.navbar-default .navbar-toggle {
+  border-color: #FFFFFF;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-image:-moz-linear-gradient(90deg, #000000, #696969);
+	background-image:-webkit-gradient(linear, center top, center bottom, from(#000000), to(#696969));
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-image:-moz-linear-gradient(90deg, #000000, #696969);
+	background-image:-webkit-gradient(linear, center top, center bottom, from(#000000), to(#696969));
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #FFFFFF;
+}
+.navbar-default .navbar-link {
+  color: #000000;
+}
+.navbar-default .navbar-link:hover {
+  color: #fc7232;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fc7232;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fc7232;
+    background-image:-moz-linear-gradient(90deg, #000000, #696969);
+  	background-image:-webkit-gradient(linear, center top, center bottom, from(#000000), to(#696969));
+  }
+}

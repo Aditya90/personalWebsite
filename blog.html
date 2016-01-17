@@ -10,7 +10,14 @@
 	<meta name="description" content="Personal Website of Aditya Sreekumar" />
 	<meta name="revised" content="Aditya Sreekumar, 09/17/12" />
 
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="css/navbar-fixed-top.css" rel="stylesheet">
+
 	<link rel="stylesheet" type="text/css" href="aditya_style.css" />
+
 	<title> Aditya Sreekumar </title>
 	<script type="text/javascript">
 
@@ -25,7 +32,8 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
+	</script>
+
 </head>
 
 
@@ -44,14 +52,28 @@
 			</table>
 		</header>
 
-		<table border="0" id="nav_table">
-			<tr>
-				<td class="navigation_menu selected" onclick="window.location='index.html'">About Me</td>
-				<td class="navigation_menu unselected" onclick="window.location='academic.html'">Academic Work</td>
-				<td class="navigation_menu unselected" onclick="window.location='gallery.html'">Gallery<td>
-				<td class="navigation_menu unselected" onclick="window.location='contact.html'">Contact</td>
-			</tr>
-		</table>
+		<!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+						<!-- These 3 lines below are for creating an icon of 3 dashes -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="selected active"><a href="index.html">Home</a></li>
+            <li><a href="academic.html">Academic Work</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
 
 		<div id="content">

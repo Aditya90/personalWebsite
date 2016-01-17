@@ -1,18 +1,10 @@
 
 /* Defining the characteristics of the page */
-body 
+body
 {
 	font-size: 17px;
 	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 	background-color:#FFFFFF;
-	/*background:url('images/wood004.jpg') left top repeat;*/
-	
-/*	width:1024px;
-	padding:10px;
-	border:5px solid gray;
-	margin:40px;
-*/
-
 }
 
 header
@@ -21,7 +13,7 @@ header
 }
 
 footer
-{	
+{
 	text-align:center;
 	margin:0px;
 	color:#FC7232;
@@ -29,7 +21,7 @@ footer
 	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 
-h1 
+h1
 {
 	color:#FC7232;
 	font-size:19px;
@@ -93,18 +85,18 @@ h3
 
 #sub_text
 {
-  vertical-align:text-top;  
+  vertical-align:text-top;
 }
 
 #page_header_name
-{	
+{
 	width:78%;
 	font-size:40px;
 	color:#FC7232
 }
 
 #page_header_address
-{	
+{
 	font-size:20px;
 	color:#FC7232
 }
@@ -117,7 +109,7 @@ h3
 
 #move_picture_left
 {
-	
+
 }
 
 #move_picture_left
@@ -133,7 +125,7 @@ h3
 #picture_view
 {
 	height:500px;
-	
+
 }
 
 #picture_caption
@@ -181,7 +173,7 @@ h3
 .body_table
 {
 	width:100%;
-	height:100%;	
+	height:100%;
 }
 
 .sub_menu
@@ -201,7 +193,6 @@ h3
 	color:#FC7232;
 	background-image:-moz-linear-gradient(90deg, #000000, #696969);
 	background-image:-webkit-gradient(linear, center top, center bottom, from(#000000), to(#696969));
-	
 }
 
 .unselected
@@ -220,7 +211,7 @@ h3
 
 .footer_content:before
 {
-	content:"Copyright 2015 Aditya Sreekumar"
+	content:"Copyright 2016 Aditya Sreekumar"
 }
 
 p.page_header_name
@@ -246,4 +237,3 @@ table.header
 {
 	background-color:#FFFFFF;
 }
-
