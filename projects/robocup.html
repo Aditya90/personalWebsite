@@ -5,24 +5,28 @@
 <head>
 	<meta name="description" content="Personal Website of Aditya Sreekumar" />
 	<meta name="revised" content="Aditya Sreekumar, 09/17/12" />
-	<link rel="stylesheet" type="text/css" href="../aditya_style.css" />
 	<title> Aditya Sreekumar </title>
+
 	<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37159231-1']);
-  _gaq.push(['_setDomainName', 'adityasreekumar.com']);
-  _gaq.push(['_trackPageview']);
+     var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-37159231-1']);
+     _gaq.push(['_setDomainName', 'adityasreekumar.com']);
+     _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
 
-</script>
+  </script>
+
+  <!-- Bootstrap core CSS -->
+ <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="../css/aditya_bootstrap.css">
+
 </head>
-
 
 <body>
 	<div id="main_div">
@@ -35,20 +39,32 @@
 							Aditya Sreekumar
 						</p>
 					</td>
-
 				</tr>
 			</table>
 		</header>
 
-		<table border="0" id="nav_table">
-			<tr>
-				<td class="navigation_menu unselected" onclick="window.location='../index.html'">About Me</td>
-				<td class="navigation_menu selected" onclick="window.location='../academic.html'">Academic Work</td>
-				<td class="navigation_menu unselected" onclick="window.location='../gallery.html'">Gallery<td>
-				<td class="navigation_menu unselected" onclick="window.location='../contact.html'">Contact</td>
-			</tr>
-		</table>
-
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <!--- Display icon for the mobile site to show options -->
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="../index.html">About Me</a></li>
+              <li class="active"><a href="../academic.html">Academic Work</a></li>
+              <li><a href="../gallery.html">Gallery</a></li>
+              <li><a href="../contact.html">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
 		<div id="content">
 
 			<table  border="0" class="body_table">
