@@ -1,0 +1,358 @@
+/* Bootstrap customizations
+   Credits - http://work.smarchal.com/twbscolor/css/e74c3cc0392becf0f1ffbbbc0
+*/
+.navbar-default
+{
+   background-image:-moz-linear-gradient(90deg, #FC7232, #FFCC11);
+   background-image:-webkit-gradient(linear, center top, center bottom, from(#FC7232), to(#FFCC11));
+   border-color: #FFFFFF;
+}
+.navbar-default .navbar-brand
+{
+  color: #000000;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus
+{
+  color: #fc7232;
+}
+
+.navbar-default .navbar-text
+{
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > a
+{
+  color: #000000;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus
+{
+   color: #fc7232;
+   background-color: #000000;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus
+{
+  color: #fc7232;
+  background-color: #000000;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus
+{
+  color: #fc7232;
+  background-color: #000000;
+}
+
+.navbar-default .navbar-toggle
+{
+  border-color: #000000;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus
+{
+  background-color: #000000;
+}
+
+.navbar-default .navbar-toggle .icon-bar
+{
+  background-color: #000000;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form
+{
+  border-color: #000000;
+}
+
+.navbar-default .navbar-link
+{
+  color: #000000;
+}
+
+.navbar-default .navbar-link:hover
+{
+  color: #fc7232;
+}
+
+@media (max-width: 767px)
+{
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a
+  {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus
+  {
+    color: #fc7232;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus
+  {
+    color: #fc7232;
+    background-color: #000000;
+  }
+}
+
+.navbar-nav
+{
+    display:table;
+    width:100%;
+    margin: 0;
+}
+
+.navbar-nav > li
+{
+    width:25%;
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
+
+/* END of bootstrap customization */
+/* Defining the characteristics of the page */
+body
+{
+	font-size: 17px;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	background-color:#FFFFFF;
+}
+
+header
+{
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+footer
+{
+	text-align:center;
+	margin:0px;
+	color:#FC7232;
+	font-size:14px;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+h1
+{
+	color:#FC7232;
+	font-size:19px;
+	text-align:center;
+}
+
+h2
+{
+  font-size:18px;
+  text-decoration:underline;
+  text-align:left;
+}
+
+h3
+{
+  font-size:17px;
+  text-decoration:underline
+}
+
+/* ID's */
+
+#main_div
+{
+	position:absolute;
+	width:80%;
+	margin-left:10%;
+	background-color:#FFFFFF;
+	height:95%;
+}
+
+#content
+{
+	overflow:auto;
+	height:75%;
+	width:100%;
+}
+
+#content_gallery
+{
+	height:65%;
+	width:100%;
+}
+
+#content_gallery_list
+{
+	overflow-x:auto;
+	height:12%;
+	width:100%;
+}
+
+#nav_table
+{
+	width:100%;
+}
+
+
+#sub_table
+{
+	width:15%;
+}
+
+#sub_text
+{
+  vertical-align:text-top;
+}
+
+#page_header_name
+{
+	width:78%;
+	font-size:40px;
+	color:#FC7232
+}
+
+#page_header_address
+{
+	font-size:20px;
+	color:#FC7232
+}
+
+#black_divider
+{
+	background-color:#454545;
+	width:4px;
+}
+
+#move_picture_left
+{
+
+}
+
+#move_picture_left
+{
+
+}
+
+#picture_main
+{
+
+}
+
+#picture_view
+{
+	height:500px;
+}
+
+#picture_caption
+{
+
+}
+
+#gallery_list
+{
+	overflow-x:auto;
+	height=100%;
+}
+
+#gallery_list_element
+{
+
+	height:100%;
+	width:20%;
+}
+
+/* CLASSES */
+.gallery_list_parent
+{
+	height:10px;
+	width:30px;
+}
+
+.image_container
+{
+
+}
+
+#tempDiv
+{
+	border:1px solid red;
+}
+
+.navigation_menu
+{
+	height:80px;
+	text-align:center;
+	width:25%;
+}
+
+.body_table
+{
+	width:100%;
+	height:100%;
+}
+
+.sub_menu
+{
+	text-align:center;
+}
+
+.academic_menu
+{
+	height:40px;
+	text-align:center;
+	width:50%;
+}
+
+.selected
+{
+	color:#FC7232;
+	background-image:-moz-linear-gradient(90deg, #000000, #696969);
+	background-image:-webkit-gradient(linear, center top, center bottom, from(#000000), to(#696969));
+
+}
+
+.unselected
+{
+	color:#000000;
+	background-image:-moz-linear-gradient(90deg, #FC7232, #FFCC11);
+	background-image:-webkit-gradient(linear, center top, center bottom, from(#FC7232), to(#FFCC11));
+}
+
+.unselected:hover
+{
+	color:#FC7232;
+	background-image:-moz-linear-gradient(90deg, #000000, #696969);
+	background-image:-webkit-gradient(linear, center top, center bottom, from(#000000), to(#696969));
+}
+
+.footer_content:before
+{
+	content:"Copyright 2015 Aditya Sreekumar"
+}
+
+p.page_header_name
+{
+	margin:0px;
+	font-size:40px;
+	color:#FC7232
+}
+
+p.page_header_address
+{
+	font-size:10px;
+	color:#FC7232
+}
+
+p.page_header_image
+{
+	margin:0px;
+	font-size:20px;
+}
+
+table.header
+{
+	background-color:#FFFFFF;
+}

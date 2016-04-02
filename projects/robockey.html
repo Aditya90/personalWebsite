@@ -5,25 +5,30 @@
 <head>
 	<meta name="description" content="Personal Website of Aditya Sreekumar" />
 	<meta name="revised" content="Aditya Sreekumar, 09/17/12" />
-	<link rel="stylesheet" type="text/css" href="../aditya_style.css" />
-	<title> Aditya Sreekumar </title><script type="text/javascript">
+	<title> Aditya Sreekumar </title>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37159231-1']);
-  _gaq.push(['_setDomainName', 'adityasreekumar.com']);
-  _gaq.push(['_trackPageview']);
+	<script type="text/javascript">
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+     var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-37159231-1']);
+     _gaq.push(['_setDomainName', 'adityasreekumar.com']);
+     _gaq.push(['_trackPageview']);
 
-</script>
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+
+  </script>
+
+  <!-- Bootstrap core CSS -->
+ <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="../css/aditya_bootstrap.css">
+
 </head>
 
-	
-<body> 	
+<body>
 	<div id="main_div">
 
 		<header>
@@ -34,22 +39,34 @@
 							Aditya Sreekumar
 						</p>
 					</td>
-
 				</tr>
 			</table>
 		</header>
 
-		<table border="0" id="nav_table">
-			<tr>
-				<td class="navigation_menu unselected" onclick="window.location='../index.html'">About Me</td>
-				<td class="navigation_menu selected" onclick="window.location='../academic.html'">Academic Work</td>
-				<td class="navigation_menu unselected" onclick="window.location='../gallery.html'">Gallery<td>	
-				<td class="navigation_menu unselected" onclick="window.location='../contact.html'">Contact</td>
-			</tr>
-		</table>
-
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <!--- Display icon for the mobile site to show options -->
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="../index.html">About Me</a></li>
+              <li class="active"><a href="../academic.html">Academic Work</a></li>
+              <li><a href="../gallery.html">Gallery</a></li>
+              <li><a href="../contact.html">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
 		<div id="content">
-			
+
 			<table  border="0" class="body_table">
 				<tr height="20%">
 					<td>
@@ -75,40 +92,40 @@
 								</table>
 							</td>
 							<td id="black_divider">
-					
+
 				</td>
 							<td id="sub_text">
-                
+
                 <h2>Robockey</h2>
-                
+
                 <p>
                   Course : MEAM 510 - Design of Mechatronic Systems</br>
                   Professor : <a href="http://www.me.upenn.edu/about-people/faculty/profile-fiene.php"><i>Dr. Jonathan Fiene</i></a>
                 </p>
-                
+
                 <h3>Description</h3>
                 <p>
                   As a team, we built 3 autonomous robots which had to localise
                   based on an overhead IR constellation, move inside a custom
-                  rink and manipulate a puck with the aim of playing hockey. 
+                  rink and manipulate a puck with the aim of playing hockey.
                   The bots had to be designed from the ground up, including the
                   structure and all on board electronics and code.
                 </p>
                 <h3>Personal Objectives</h3>
                 <p>
                 <ul>
-                  <li>Designed and assembled all electronics required for 
-                  interfacing sensors and motors with the processor</li>      
-                  <li>Designed and assembled  an analog circuit for detecting 
+                  <li>Designed and assembled all electronics required for
+                  interfacing sensors and motors with the processor</li>
+                  <li>Designed and assembled  an analog circuit for detecting
                   if the puck has been acquired by the robot</li>
                   <li>Made a motor actuated kicking mechanism</li>
                   <li>Supplemented the onboard code for game play, wireless
                   command reception and robot motion</li>
                 </ul>
                 </p>
-                    
+
 							</td>
-							
+
 						</tr>
 					</table>
 					</td>
@@ -117,16 +134,16 @@
 					<td></td>
 				</tr>
 			</table>
-			
-					
+
+
 		</div>
-		
+
 		<footer>
-			<p class="footer_content">				
+			<p class="footer_content">
 			</p>
 		</footer>
 	</div>
-	
+
 </body>
 
 
