@@ -68,39 +68,59 @@
          </div>
          <!--/.container-fluid -->
       </nav>
+
       <div id="content">
 
          <table border="0" class="body_table">
             <tr>
                <td id="sub_text">
-
-                  <h2>Robockey</h2>
-
+                  <h2>Automated Garden Watering</h2>
                   <p>
-                     Course : MEAM 510 - Design of Mechatronic Systems</br>
-                     Professor : <a href="http://www.me.upenn.edu/about-people/faculty/profile-fiene.php"><i>Dr. Jonathan Fiene</i></a>
+                     Source Files :
+                     <ul>
+                        <li><a href="https://github.com/Aditya90/ParticlePhoton-GardenManagement">Photon Firmware</a></li>
+                     </ul>
                   </p>
-
                   <h3>Description</h3>
                   <p>
-                     As a team, we built 3 autonomous robots which had to localise based on an overhead IR constellation, move inside a custom rink and manipulate a puck with the aim of playing hockey. The bots had to be designed from the ground up, including the structure
-                     and all on board electronics and code.
+                     The aim of this project is to develop an autonomous garden watering system.
+
+                     The system should adhere to the following requirements :
+                     <ol type="1">
+                        <li> Be compact enough to fit nicely in a small apartment </li>
+                        <li> Operation off of a rechargable battery </li>
+                        <li> Be able to provide sufficient water to all the plants being monitored </li>
+                        <li> Detect and log information from sensors to know when to water the plants </li>
+                     </ol>
+
+                     I have also hosted this project on <a href="https://www.hackster.io/adi1690/autonomous-garden-watering-a389bd">Hackster IO</a>.
+
                   </p>
-                  <h3>Personal Objectives</h3>
+                  <h3>Work done</h3>
                   <p>
-                     <ul>
-                        <li>Designed and assembled all electronics required for interfacing sensors and motors with the processor</li>
-                        <li>Designed and assembled an analog circuit for detecting if the puck has been acquired by the robot</li>
-                        <li>Made a motor actuated kicking mechanism</li>
-                        <li>Supplemented the onboard code for game play, wireless command reception and robot motion</li>
-                     </ul>
+                     This project is based off of my <a href="https://www.hackster.io/adi1690/particle-photon-motor-control-c1fa6d?ref=user&ref_id=51194&offset=1">Particle Photon Motor Control</a> project. I have added support for the DHT22 sensor as well in the Github Firmware Repository which was linked above.
+
+                     The circuit so far :
+                  </p>
+                  <table>
+                     <tr>
+                        <td>
+                           <img src="../images/projects/gardenwatering/img_gardenWatering.JPG" alt="garden" width="500px" />
+                        </td>
+                        <td width="50px"></td>
+                        <td>
+                           <img src="../images/projects/gardenwatering/img_motorControlSchematic.JPG" alt="motor" width="500px"  />
+                        </td>
+                     </tr>
+                  </table>
+                  <p>
+                     I am now working on getting the hardware assembled to plug the moisture sensor in and perform calibration.
                   </p>
 
                </td>
-
             </tr>
          </table>
-         
+
       </div>
 
       <footer>
