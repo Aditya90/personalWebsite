@@ -1,25 +1,10 @@
 language: ruby
-rvm:
-  - 2.0
-  - 2.1
-  - 2.2
-  - 2.3.0
-
-script: "script/cibuild"
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-
-notifications:
-  email: false
-
-cache: bundler
-sudo: false
-
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 install:
   - gem install jekyll
   - gem install html-proofer
-
 script:
   - jekyll build
   - htmlproof _site
