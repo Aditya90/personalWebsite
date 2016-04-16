@@ -10,3 +10,7 @@ install:
 script:
   - jekyll build
   - htmlproofer _site
+branches:
+  only:
+    - gh-pages
+    - *
