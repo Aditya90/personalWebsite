@@ -1,0 +1,105 @@
+<!DOCTYPE html	>
+
+<html>
+
+<head>
+   <link rel="icon" href="../images/favicon.ico">
+
+   <meta name="description" content="Personal Website of Aditya Sreekumar" />
+   <meta name="revised" content="Aditya Sreekumar, 09/17/12" />
+   <title> Aditya Sreekumar </title>
+
+   <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37159231-1']);
+      _gaq.push(['_setDomainName', 'adityasreekumar.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+         var ga = document.createElement('script');
+         ga.type = 'text/javascript';
+         ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0];
+         s.parentNode.insertBefore(ga, s);
+      })();
+   </script>
+
+   <!-- Bootstrap core CSS -->
+   <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="../css/aditya_bootstrap.css">
+
+</head>
+
+<body>
+   <div id="main_div">
+
+      <header>
+         <table class="header">
+            <tr>
+               <td id="page_header_name">
+                  <p>
+                     Aditya Sreekumar
+                  </p>
+               </td>
+            </tr>
+         </table>
+      </header>
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <!--- Display icon for the mobile site to show options -->
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+               <ul class="nav navbar-nav">
+                  <li><a href="../index.html">About Me</a></li>
+                  <li class="active"><a href="../projects.html">Projects</a></li>
+                  <li><a href="../gallery.html">Gallery</a></li>
+                  <li><a href="../contact.html">Contact</a></li>
+               </ul>
+            </div>
+            <!--/.nav-collapse -->
+         </div>
+         <!--/.container-fluid -->
+      </nav>
+
+      <div id="content">
+
+         <table border="0" class="body_table">
+            <tr>
+               <td id="sub_text">
+                  <h2>ROS Robot</h2>
+                  <h3>Description</h3>
+                  <p>                
+                    This project is aimed at creating a robot based on the Beagle Bone Black using the 
+                    ROS architecture. The motivation behind this project is to create a software package 
+                    which is modular so that individual components (like motor drivers) can be easily replaced.
+
+                    I have hosted this project on <a href="https://www.hackster.io/adi1690/ros-robot-for-the-home-004bf8">Hackster IO</a> 
+                    and you can check there for more information.               
+                  </p>
+                  <img src="../images/projects/rosrobot/rosrobot.jpg" alt="rosrobot" />
+               </td>
+            </tr>
+         </table>
+
+      </div>
+
+      <footer>
+         <p class="footer_content">
+         </p>
+      </footer>
+   </div>
+
+</body>
+
+
+</html>
